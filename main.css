@@ -1,0 +1,195 @@
+
+#canvas {
+  padding: 75px;
+  margin: 10px auto;
+}
+
+p {
+  font-family: Georgia;
+  text-align: left;
+}
+
+nav {
+  background-color: #25426B;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 10px solid #1E3452;
+  box-shadow: 5px 0px 15px #000000;
+}
+nav h1 {
+  color: white;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+ul {
+  display: inline-block;
+  float: right;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 45px;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+.main-section {
+  width: 75%;
+  margin: auto;
+  max-width: 750px;
+}
+
+.main-section img {
+  width:100%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  background-color: lightgrey;
+  margin: 0;
+  padding: 16px;
+  position: relative;
+  bottom: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.left-column {
+  display: inline-block;
+  margin-right: 1%;
+  width: 49.5%;
+}
+
+.right-column {
+  display: inline-block;
+  width: 49.5%;
+  margin-left: -5px;
+
+}
+
+.main-section h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.main-section h2 {
+  text-align: center;
+  color: #25426B;
+  font-size: 25px;
+}
+
+.write-up {
+  margin-top: 30px;
+  clear: both;
+}
+
+
+.favorite-place-section img {
+  width: 100%;
+}
+
+.favorite-place-text{
+  display: inline-block;
+  width: 49.7%;
+  margin: 0;
+}
+
+.favorite-place-text h3{
+  text-align: center;
+}
+
+
+
+.line-separator{
+  height:1px;
+  background:lightgrey;
+  border-bottom:1px solid lightgrey;
+  margin: 25px 0;
+
+}
+
+footer {
+  height: 35px;
+  background-color: lightgrey;
+  clear: both;
+  padding: 45px;
+  margin-top: 50px;
+  border-top: 10px solid #1E3452;
+
+}
+
+footer p {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+
+footer a {
+  color: black;
+}
+
+/*****************
+About Page
+*****************/
+
+.bio-pic {
+  width: 25%;
+  display: inline-block;
+}
+.bio-text {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+span {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+.about-photo-gallery img {
+  width: 49%;
+  height; auto;
+}
+#name-header {
+  text-align: left;
+  margin-top: 0;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+  padding: 0 35px;
+  color: grey;
+}
+#large-quote {
+  font-size: 75px;
+  color: #25426B;
+  text-align: center;
+  margin: auto;
+}
+/*****************
+Contact Page
+*****************/
+#address-text {
+  font-size: 25px;
+  text-align: center;
+}
+
+#address-text a {
+  color: black;
+}
